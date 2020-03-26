@@ -70,12 +70,34 @@ months.splice(4, 1, 'may');
 console.log(months);
 
 //lightening exercise
+// In your JavaScript file, instantiate and assign a variable called movieArray. This variable should hold an array of your favorite movie titles. (Don't go overboard- two or three is fine).
+// Log each movie in the array to the console.
 var movieArray = ['pulp fiction', 'eternal sunshine of the spotless mind', 'planes, trains, and automobiles'];
 
 console.log(movieArray);
 console.log(movieArray[0]);
 console.log(movieArray[1]);
 console.log(movieArray[2]);
+
+//arrays store info by index order, but objects can store data with more details.
+
+var leahObject = {
+    firstName: "Leah",
+    lastName: "Gwin",
+    age: 27
+}
+console.log(leahObject.firstName); //"Leah"
+
+//can put an array in an object
+
+var lindseyObject = {
+    firstName: "Lindsey",
+    lastName: "Crittendon",
+    age: 34,
+    hobbies: ['beekeeping', 'reading', 'writing']
+}
+
+console.log(lindseyObject.hobbies[2]);
 
 
 
