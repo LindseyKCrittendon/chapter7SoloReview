@@ -98,6 +98,11 @@ var lindseyObject = {
 }
 
 console.log(lindseyObject.hobbies[2]);
+console.log(lindseyObject.hobbies.length);
+console.log(lindseyObject.hobbies);
+console.log(`${firstName} ${lastName} is ${age}, and she likes ${lindseyObject.hobbies[0]} more than anything!`)
+
+
 
 
 
