@@ -102,6 +102,27 @@ console.log(lindseyObject.hobbies.length);
 console.log(lindseyObject.hobbies);
 console.log(`${firstName} ${lastName} is ${age}, and she likes ${lindseyObject.hobbies[0]} more than anything!`)
 
+//can also have arrays of objects
+var izzyObject = {
+    firstName: "Isabelle",
+    lastName: "Clagg",
+    age: 10,
+    hobbies: ['beekeeping', 'reading', 'gaming', 'playing with her dogs']
+}
+var jeremyObject = {
+    firstName: "Jeremy",
+    lastName: "Crittendon",
+    age: 34,
+    hobbies: ['beekeeping', 'picking on his wife', '3D printing', 'watching television']
+}
+var familyArray = [lindseyObject, izzyObject, jeremyObject];
+console.log(familyArray[1].hobbies[2]);
+console.log(`${familyArray[1].firstName} tries to get out of her homework all the time by ${familyArray[1].hobbies[2]}!`) //omfg it feels good to understand that.
+
+
+
+
+
 
 
 
